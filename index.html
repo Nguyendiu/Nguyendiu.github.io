@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ Án Web</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style-do-an.css">
+    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="head_menu">
+                <ul>
+
+                    <li><a class="barHead fas fa-bars" href=""></a></li>
+                    <li class="image mr20"><a href=""><img
+                                src="https://www.cafeimports.com/assets/images/logo-white.png "></a>
+                    </li>
+                    <li class="mr30"><a class="menuOption" href="">Giới thiệu</a></li>
+                    <li class="mr30">
+                        <a class="menuOption" href="">Hướng dẫn mua hàng<i class="fas fa-chevron-down"></i></a>
+                        <ul class="menuOptionChild">
+                            <li><a href="" class="option">Phương thức thanh toán</a></li>
+                            <li><a href="" class="option">Chính sách giao hàng</a> </li>
+                            <li><a href="" class="option">Chính sách đổi/ trả hàng và hoàn tiền</a></li>
+                            <li><a href="" class="option">Chính sách bảo mật thông tin</a></li>
+                        </ul>
+                    </li>
+                    <li class="mr30">
+                        <a class="menuOption" href="">Sản phẩm <i class="fas fa-chevron-down"></i></a>
+                        <ul class="menuOptionChild">
+                            <li><a href="" class="option">Cafe cao cấp</a></li>
+                            <li><a href="" class="option">Cafe rang xay</a> </li>
+                            <li><a href="" class="option">Cafe hòa tan</a></li>
+                        </ul>
+                    </li>
+                    <li class="mr30 ">
+                        <a class="menuOption" href="">Kiến thức cà phê<i class="fas fa-chevron-down"></i></a>
+                        <ul class="menuOptionChild">
+                            <li><a href="" class="option">Cafe quán</a></li>
+                            <li><a href="" class="option">Cafe trên thế giới</a></li>
+                        </ul>
+                    </li>
+                    <li class="mr30 "><a class="menuOption" href="">Tuyển dụng</a></li>
+                    <li><a class="menuOption" href="">Tin tức</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="https://homekitchenary.com/wp-content/uploads/2017/09/Types-of-Coffee-Beans-and-Their-Flavor-1.jpg"
+                    alt="Los Angeles" style="width:100%; height: 500px;">
+            </div>
+
+            <div class="item">
+                <img src="https://www.wallmur.com/media/catalog/pdata/cache/1/crop_image/1000x/65b82f/v/i/vintage-coffee-wallpaper-mural-wm-65942661-41473957.jpg"
+                    alt="Chicago" style="width:100%; height: 500px;">
+            </div>
+
+            <div class="item">
+                <img src="https://www.goodfood.com.au/content/dam/images/2/u/n/v/j/image.related.articleLeadwide.620x349.2unwt.png/1380560400000.jpg"
+                    alt="New york" style="width:100%; height: 500px;">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" id="arrow" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" id="arrow" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="clear"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <nav class="menu fx">
+                    <ul class="">
+                        <li><a class="menu-scroll-link fx" href="#1">NỔI BẬT</a></li>
+                        <li><a class="menu-scroll-link fx" href="#2">CÀ PHÊ VIỆT NAM</a></li>
+                        <li><a class="menu-scroll-link fx" href="#3">CÀ PHÊ MÁY</a></li>
+                        <li><a class="menu-scroll-link fx" href="#4">COLD BREW</a></li>
+                        <li><a class="menu-scroll-link fx" href="#5">TRÀ TRÁI CÂY</a></li>
+                        <li><a class="menu-scroll-link fx" href="#6">TRÀ SỮA MACCHIATO</a></li>
+                        <li><a class="menu-scroll-link fx" href="#7">CÀ PHÊ ĐÁ XAY</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-8">
+                <div class="row-1" id="1">
+                    <div class="title-sp w100">
+                        <div><a class="tdc " href="">
+                                <h3 class="und mgt">NỔI BẬT</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="row fl">
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg">
+                                    <h4>BREW CAM VÀNG
+                                    </h4>
+                                </a>
+                                <p>50,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            id="img-oder" width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg">
+                                    <h4>CÀ PHÊ ĐEN</h4>
+                                </a>
+                                <p>30,00 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/yuzu_espresso_tonic_e58dd84ee24d4748b42fc3e8733187f3_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/yuzu_espresso_tonic_e58dd84ee24d4748b42fc3e8733187f3_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/yuzu_espresso_tonic_e58dd84ee24d4748b42fc3e8733187f3_large.jpg">
+                                    <h4>ESPRESSO </h4>
+                                </a>
+                                <p>50,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-2" id="2">
+                    <div class="title-sp w100">
+                        <div class="mgb"><a class="tdc" href="">
+                                <h3 class="und mgt">CÀ PHÊ VIỆT NAM</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="row fl">
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.jpg"
+                                    target="_blank">
+                                    <h4>BẠC SỈU
+                                    </h4>
+                                </a>
+                                <p>32,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg">
+                                    <h4>CÀ PHÊ ĐEN</h4>
+                                </a>
+                                <p>30,00 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/cfsd_615a3cb2b1e342d2b1986bfeb6572070_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/cfsd_615a3cb2b1e342d2b1986bfeb6572070_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/cfsd_615a3cb2b1e342d2b1986bfeb6572070_large.jpg">
+                                    <h4>CÀ PHÊ SỮA</h4>
+                                </a>
+                                <p>40,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-3" id="3">
+                    <div class="title-sp w100">
+                        <div><a class="tdc" href="">
+                                <h3 class="und mgt">CÀ PHÊ VIỆT MÁY</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="row fl">
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/americano_copy_92414ac8e0634fb48ea72b21bc496b43_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/americano_copy_92414ac8e0634fb48ea72b21bc496b43_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/americano_copy_92414ac8e0634fb48ea72b21bc496b43_large.jpg">
+                                    <h4>AMERICANO
+                                    </h4>
+                                </a>
+                                <p>43,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/cappuccino_af58b143de7e4faeb9a3ce59b313c946_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/cappuccino_af58b143de7e4faeb9a3ce59b313c946_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/cappuccino_af58b143de7e4faeb9a3ce59b313c946_large.jpg">
+                                    <h4>CAPPUCCINO</h4>
+                                </a>
+                                <p>45,00 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/caramel_macchiato_24ff98b746e84b7aba702c01a60b1a52_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/caramel_macchiato_24ff98b746e84b7aba702c01a60b1a52_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/caramel_macchiato_24ff98b746e84b7aba702c01a60b1a52_large.jpg">
+                                    <h4> MACCHIATO</h4>
+                                </a>
+                                <p>55,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-4" id="4">
+                    <div class="title-sp w100">
+                        <div><a class="tdc" href="">
+                                <h3 class="und mgt">COLD BREW</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="row fl">
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/classic_cold_brew_67a26b702dbc4602b36c450893efdab0_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/classic_cold_brew_67a26b702dbc4602b36c450893efdab0_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/classic_cold_brew_67a26b702dbc4602b36c450893efdab0_large.jpg">
+                                    <h4>C.B TRUYỀN THỐNG
+                                    </h4>
+                                </a>
+                                <p>45,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg">
+                                    <h4>C.B CAM VÀNG</h4>
+                                </a>
+                                <p>50,00 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/coldbrew-macchiato_d7b208bbbca9454c8d00f4ae4881b5cb_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/coldbrew-macchiato_d7b208bbbca9454c8d00f4ae4881b5cb_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/coldbrew-macchiato_d7b208bbbca9454c8d00f4ae4881b5cb_large.jpg">
+                                    <h4>C.B MACCHIATO</h4>
+                                </a>
+                                <p>50,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-5" id="5">
+                    <div class="title-sp w100">
+                        <div><a class="tdc" href="">
+                                <h3 class="und mgt">TRÀ TRÁI CÂY</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="row fl">
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/tra_vai_046084306a484f41bd8c37efaab8f538_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/tra_vai_046084306a484f41bd8c37efaab8f538_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/tra_vai_046084306a484f41bd8c37efaab8f538_large.jpg">
+                                    <h4>TRÀ OOLONG VẢI
+                                    </h4>
+                                </a>
+                                <p>45,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/tra_sen_bd7ab23f9be048429bb13682f6515ec3_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/tra_sen_bd7ab23f9be048429bb13682f6515ec3_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/tra_sen_bd7ab23f9be048429bb13682f6515ec3_large.jpg">
+                                    <h4>TRÀ HẠT SEN</h4>
+                                </a>
+                                <p>45,00 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg">
+                                    <h4>TRÀ ĐÀO CAM SẢ</h4>
+                                </a>
+                                <p>45,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-6" id="6">
+                    <div class="title-sp w100">
+                        <div><a class="tdc" href="">
+                                <h3 class="und mgt">TRÀ SỮA MACCHIATO</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="row fl">
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/tra_lai_macchiato_593fa25b60c746a0bbaab931ce646d42_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/tra_lai_macchiato_593fa25b60c746a0bbaab931ce646d42_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/tra_lai_macchiato_593fa25b60c746a0bbaab931ce646d42_large.jpg">
+                                    <h4>TRÀ LÀI
+                                    </h4>
+                                </a>
+                                <p>45,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/tra_den_macchiato_789c1d7590a24dce8dd0a412ae03a7fd_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/tra_den_macchiato_789c1d7590a24dce8dd0a412ae03a7fd_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/tra_den_macchiato_789c1d7590a24dce8dd0a412ae03a7fd_large.jpg">
+                                    <h4>MACCHIATO</h4>
+                                </a>
+                                <p>50,00 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/macca_d56d5ab8dde4455aa7f19d29b5fff763_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/macca_d56d5ab8dde4455aa7f19d29b5fff763_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/macca_d56d5ab8dde4455aa7f19d29b5fff763_large.jpg">
+                                    <h4>TRÂN CHÂU TRẮNG</h4>
+                                </a>
+                                <p>42,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-7" id="7">
+                    <div class="title-sp w100">
+                        <div><a class="tdc" href="">
+                                <h3 class="und mgt">CÀ PHÊ ĐÁ XAY</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="row fl">
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/chanh_sa_da_xay_45d1c4971e4f4251a2858aa3970fed80_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/chanh_sa_da_xay_45d1c4971e4f4251a2858aa3970fed80_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/    chanh_sa_da_xay_45d1c4971e4f4251a2858aa3970fed80_large.jpg">
+                                    <h4>CHANH SẢ ĐÁ XAY
+                                    </h4>
+                                </a>
+                                <p>49,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/cam_pbt_da_xay_27dc80ef2efb4828885c2be429aa42fa_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/cam_pbt_da_xay_27dc80ef2efb4828885c2be429aa42fa_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/cam_pbt_da_xay_27dc80ef2efb4828885c2be429aa42fa_large.jpg">
+                                    <h4>P.B.TỬ CAM XAY</h4>
+                                </a>
+                                <p>59,00 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://product.hstatic.net/1000075078/product/sinh_to_cam_xoai_c3cfa1beec0d4e49b0b229104cbfe412_large.jpg"><img
+                                        width="100%"
+                                        src="https://product.hstatic.net/1000075078/product/sinh_to_cam_xoai_c3cfa1beec0d4e49b0b229104cbfe412_large.jpg"
+                                        alt=""></a>
+                                <a class="tdc"
+                                    href="https://product.hstatic.net/1000075078/product/sinh_to_cam_xoai_c3cfa1beec0d4e49b0b229104cbfe412_large.jpg">
+                                    <h4>SINH TỐ CAM XOÀI</h4>
+                                </a>
+                                <p>59,000 VNĐ</p>
+                                <button class="btn" onclick=""><a href="link-oder.html" target="_blank"><img
+                                            width="100%"
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNCsBXQELUx8n3H5fMn5AAqnJqiNyPakNrOA&usqp=CAU"
+                                            alt=""></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div><button onclick="topFunction()" id="myBtn" title="Go to top"><img width="100%"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR8n9orwYlKobwpRFh3CYVX7F4RWfgSoMocdw&usqp=CAU"
+                alt=""></button></div>
+    <div class="icon-order"></div>
+    <a class="tdc" href="link-oder.html" target="_blank"><img style="z-index: 2;" class="icon-order" width="80px"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNzbksSMjyAyW-z4hIBMpDwGvFfNC6yxQNzA&usqp=CAU"
+            alt=""></a>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row bdb">
+                <div class="col-3">
+                    <img class="mglg" src="https://sprudge.com/wp-content/uploads/2019/05/coffee-processing.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <h3 class="mgt20">ABOUT</h3><br>
+                    <a class="detail" href="#">về chúng tôi</a> <br>
+                    <a class="detail" href="#">blog</a> <br>
+                    <a class="detail" href="#">cơ hội nghề nghiệp</a>
+                </div>
+                <div class="col-3">
+                    <h3 class="mgt20">Always-on Support</h3><br>
+                    <p>Delivery 1800 6936 (07:00-21:00)</p><br>
+                    <p>Support +84 2871 087 088 (07:00-21:00)</p>
+                </div>
+                <div class="col-3">
+                    <h3 class="mgt20">Address</h3><br>
+                    <p>86 - 88 Cao Thang, Ward 4, District 3, Ho Chi Minh, Vietnam.</p><br>
+                    <p>Head Office 2: 62 Tran Quang Khai, Tan Dinh Ward, District 1 Ho Chi Minh, Vietnam.</p><br>
+                    <p>+84 2871 087 088</p><br>
+                    <p>hi@thecoffeehouse.vn</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p style="color: white;">Copyright © 2020 The Coffee House. All rights reserved.</p>
+                </div>
+                <div class="col-4">
+                    <a class="detail" href="#">Privacy Policy</a>
+                </div>
+                <div class="col-4">
+                    <a class="detail" href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./do-an.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

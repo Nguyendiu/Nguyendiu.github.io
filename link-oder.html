@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        #myInput {
+          background-image: url('/css/searchicon.png');
+          background-position: 10px 12px;
+          background-repeat: no-repeat;
+          width: 100%;
+          font-size: 16px;
+          padding: 12px 20px 12px 40px;
+          border: 1px solid black;
+          margin-bottom: 12px;
+        }
+        
+        #myUL {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+        
+        #myUL li a {
+          border: 1px solid #ddd;
+          margin-top: -1px; /* Prevent double borders */
+          background-color: #f6f6f6;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px;
+          color: black;
+          display: block
+        }
+        
+        #myUL li a:hover:not(.header) {
+          background-color: #eee;
+        }
+        .buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 ">
+            <div class="col-6 ">
+                <form>
+                    <h2>Thông Tin Khách Đặt Hàng</h2>
+                    <p>tên khách hàng</p><input type="text" class="bd" id="name" placeholder="">
+                    <p>số điện thoại</p><input type="number" class="phonenumber bd" id="phone-number" placeholder="">
+                     <img width="20%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjER3h9f_GdvWA07JMM55SJAAfdLi7eMRIAQ&usqp=CAU" alt="">
+                </form>
+                    <p>địa chỉ</p><input type="text" class="dia-chi bd" id="dia-chi" placeholder="">       
+            </div>
+            <div class="col-6">
+                <form class="example" action="/action_page.php">
+                    <form>
+                        Chọn Sản Phẩm Bạn Muốn Mua
+                        <select id="mySelect">
+                          <option value="Tổng thanh toán là 50,000 VNĐ. cám ơn bạn đã đặt hàng">BREW CAM VÀNG</option>
+                          <option value="Tổng thanh toán là 30,000 VNĐ. cám ơn bạn đã đặt hàng">CÀ PHÊ ĐEN</option>
+                          <option value="Tổng thanh toán là 50,000 VNĐ. cám ơn bạn đã đặt hàng">ESPRESSO</option>
+                          <option value="Tổng thanh toán là 32,000 VNĐ. cám ơn bạn đã đặt hàng">BẠC SỈU</option>
+                          <option value="Tổng thanh toán là 30,000 VNĐ. cám ơn bạn đã đặt hàng">CÀ PHÊ ĐEN</option>
+                          <option value="Tổng thanh toán là 40,000 VNĐ. cám ơn bạn đã đặt hàng">CÀ PHÊ SỮA</option>
+                          <option value="Tổng thanh toán là 43,000 VNĐ. cám ơn bạn đã đặt hàng">AMERICANO</option>
+                          <option value="Tổng thanh toán là 45,000 VNĐ. cám ơn bạn đã đặt hàng">CAPPUCCINO</option>
+                          <option value="Tổng thanh toán là 55,000 VNĐ. cám ơn bạn đã đặt hàng">TRÀ OOLONG VẢI</option>
+                          <option value="Tổng thanh toán là 45,000 VNĐ. cám ơn bạn đã đặt hàng">TRÀ HẠT SEN</option>
+                          <option value="Tổng thanh toán là 50,000 VNĐ. cám ơn bạn đã đặt hàng">TRÀ ĐÀO CAM SẢ</option>
+                          <option value="Tổng thanh toán là 50,000 VNĐ. cám ơn bạn đã đặt hàng">TRÀ LÀI</option>
+                          <option value="Tổng thanh toán là 45,000 VNĐ. cám ơn bạn đã đặt hàng">MACCHIATO</option>
+                          <option value="Tổng thanh toán là 45,000 VNĐ. cám ơn bạn đã đặt hàng">TRÂN CHÂU TRẮNG</option>
+                          <option value="Tổng thanh toán là 49,000 VNĐ. cám ơn bạn đã đặt hàng">CHANH SẢ ĐÁ XAY</option>
+                          <option value="Tổng thanh toán là 59,000 VNĐ. cám ơn bạn đã đặt hàng">P.B.TỬ CAM XAY</option>
+                          <option value="Tổng thanh toán là 59,000 VNĐ. cám ơn bạn đã đặt hàng">SINH TỐ CAM XOÀI</option>
+                        </select>
+                      </form>
+                      <button type="button" onclick="myFunction()">Xác Nhận</button>
+                      <p id="demo"></p>
+                      <script>
+                      function myFunction() {
+                        if( document.getElementById('name').value == "" || document.getElementById('phone-number').value== "" || document.getElementById('dia-chi').value==""){
+              
+                           alert('bạn chưa điền đủ thông tin');
+                         }else{
+                         var x = document.getElementById("mySelect").value;
+                        document.getElementById("demo").innerHTML = document.getElementById('name').value  + "-" + document.getElementById('phone-number'). value + "-" + document.getElementById('dia-chi').value + "-"  + x ;
+                      }
+                      }
+                    </script>
+                    
+</body>
+</html>
